@@ -12,7 +12,9 @@ Ideally, with more time invested, I'd write customized Web scrapers, or utilize 
 
 This workflow makes use of the free e-commerce aggregator site [smzdm.com](https://www.smzdm.com) and scrapes data directly from the site. The site already attempts to collate products listed across a range of key platforms in China.
 
-![Platforms aggregated by smzdm.com](/doc/smzdm.png)
+<p align="center">
+  <img src="/doc/smzdm.png">
+</p>
 
 ## Designing a Monitoring and Analysis Workflow on a Budget
 
