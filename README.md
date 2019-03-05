@@ -27,7 +27,7 @@ The Web scraper could be programmed to return results in the form of a CSV file.
 
 ## Maltego - Visual Link Analysis Tool
 
-I've chosen to experiment with Maltego, more commonly a tool used in the Cyber Security industry. This will act as my front-end which I'll use to visually explore and analyse the product listings once collated.
+I've chosen to experiment with [Maltego](https://www.paterva.com/web7/buy/maltego-clients.php), more commonly a tool used in the Cyber Security industry. This will act as my front-end which I'll use to visually explore and analyse the product listings once collated.
 
 The Python script for the Web scraper will be packaged into a *Local Transform* in Maltego. Transforms are a great feature and allow Maltego to be customized to tasks such as this one.
 
