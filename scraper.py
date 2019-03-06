@@ -36,8 +36,8 @@ def scrapeItem(item):
 	'url':url,
     'date':scrape_date,
     'source_url':scrapeSourceURL(source_button),
-	'description':' '.join(desc_block.text.split()).strip()
-,	'image':scrapeImage(image_ref),
+	'description':' '.join(desc_block.text.split()).strip(),
+	'image':scrapeImage(image_ref),
 	'shop':scrapeShop(footer_block),
     'type':item_type}
     return data
@@ -107,7 +107,7 @@ def scrapeListings(keywords):
     next_page = True
     page_count = 1
 
-    # Encode the keywords string to make it URL-safe
+    # Make keyword string URL-safe
     keywords = '+'.join(keywords.split()).strip()
 
     while next_page and page_count < 11:
