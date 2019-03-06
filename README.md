@@ -120,7 +120,7 @@ Lower cost counterfeits from the mainland masquerading as foreign imports (often
 
 *Disclaimer: casting no accusations against this particular Hong Kong trading company, it's used here purely to illustrate to the workflow in action and how it can be used.*
 
-## Making use of Maltego as your *Investigation Environment*
+## Making use of Maltego as your Investigation Environment
 
 As well as running semi-automated transforms in Maltego, entities can be added to the chart manually. In this way, we can continue to research the operators of the two stores highlighted in the example above selling Dyson hairdryers. We can add our findings to the chart manually, building-up an wider intelligence picture and identifying potential cross-platform links.
 
@@ -130,7 +130,7 @@ I also use a set a transforms built around Baidu's Fanyi API for machine transla
 
 ## Other Info
 
-I began collecting a list of ```mall_id``` strings used by smzdm.com to reference specific platforms it aggregates. This list can be found in ```/extra/smzdm_mall_ids.json```. The list is likely incomplete and was not integrated in to ```scaper.py``` but might be of use for further development.  
+I began collecting a list of ```mall_id``` strings used by smzdm.com to reference specific platforms it aggregates. This list can be found in ```/extras/smzdm_mall_ids.json```. The list is likely incomplete and was not integrated in to ```scaper.py``` but might be of use for further development.  
 
 If interested in building a budget workflow with reach beyond the Chinese market, you can also consider tapping into [Webhose.io's](https://webhose.io) machine-readable feed of global e-commerce data. The data comes structured and won't require relying on any temperamental Web scrapers. Webhose also retains an archive of historic pricing data that can be queried.
 
